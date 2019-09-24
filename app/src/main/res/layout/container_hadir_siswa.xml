@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="fish name"
+        android:textSize="14sp"
+        android:id="@+id/textFishName"
+        android:textColor="@color/colorHitam"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="price"
+        android:textSize="12sp"
+        android:id="@+id/textPrice"
+        android:textColor="@color/colorLogout"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/textSize"
+        android:textSize="12sp"
+        android:layout_below="@id/textFishName"
+        android:textColor="@color/colorOrange"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="sd"
+        android:id="@+id/textType"
+        android:textSize="12sp"
+        android:layout_below="@id/textPrice"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/colorLogout"/>
+
+</RelativeLayout>

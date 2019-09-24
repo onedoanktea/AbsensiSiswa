@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Absensi TO NF</string>
+    <string name="scan_name">Scan QR Siswa Tes</string>
+    <string name="proses_scan_name">Proses Scan Tiket Peserta</string>
+    <string name="list_name">Daftar Kehadiran Hari ini</string>
+    <string name="list_search_name">Daftar Kehadiran Peserta</string>
+    <string name="search_siswa">Cek Induk Siswa</string>
+    <string name="cek_absen_siswa">Cek Absensi Siswa</string>
+    <string name="statistik_name">Statistik Kehadiran</string>
+    <string-array name="date_array">
+        <item>Today so far</item>
+        <item>Yesterday</item>
+        <item>This Week so far</item>
+        <item>This Month so far</item>
+        <item>Last Month</item>
+        <item>This Year so far</item>
+        <item>LifeTime</item>
+        <item>Custom</item>
+    </string-array>
+</resources>

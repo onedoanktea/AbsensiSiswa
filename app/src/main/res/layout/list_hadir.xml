@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/baImage"
+            android:paddingBottom="5dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_user"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Id"
+            android:textSize="12sp"
+            android:id="@+id/nonf"
+            android:layout_marginTop="2dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="5dp"
+            android:layout_alignTop="@+id/baImage"
+            android:layout_toRightOf="@+id/baImage"
+            android:layout_toEndOf="@+id/baImage" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Nama"
+            android:ellipsize="end"
+            android:paddingLeft="4dp"
+            android:paddingRight="50dp"
+            android:textSize="16sp"
+            android:id="@+id/nama"
+            android:layout_below="@+id/nonf"
+            android:layout_alignLeft="@+id/nonf"
+            android:layout_alignStart="@+id/nonf"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:id="@+id/jam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/colorLogout"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dp"
+            android:textSize="12sp"
+            android:text="tanggal"
+            android:layout_alignBaseline="@+id/nonf"
+            android:layout_alignBottom="@+id/nonf"/>
+
+
+</RelativeLayout>
